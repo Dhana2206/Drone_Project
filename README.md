@@ -1,20 +1,19 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Drone Project
 
-# Run and deploy your AI Studio app
+Overview
 
-This contains everything you need to run your app locally.
+The Drone Project is designed to develop and implement a drone-based system for controlled aerial operations. The project combines hardware and software components to enable reliable drone control, monitoring, and flight operations.
 
-View your app in AI Studio: https://ai.studio/apps/93eb19f5-591f-49f9-b77b-ee2146bb6adb
+The system provides a foundation for applications such as aerial monitoring, surveillance, agriculture, and other real-world drone-based solutions.
 
-## Run Locally
+Project Structure
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Drone_Project/
+│
+├── .gitignore
+├── README.md
+├── src/
+├── hardware/
+├── software/
+├── docs/
+└── images/
